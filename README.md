@@ -5,16 +5,23 @@ Desenvolvido por uma pequena equipe de estudantes que buscou aprender melhor na 
 
 Status: Incompleto.
 
-Hospedado no glitch: https://devsda.glitch.me/
+### Imagens
+Página de login:
+![ftex1](https://user-images.githubusercontent.com/60610559/90321943-b3685f80-df24-11ea-8251-4e256cfd489d.png)
+Página de cadastro:
+![ftex2](https://user-images.githubusercontent.com/69728179/90322015-50c39380-df25-11ea-967e-dd52e1a61ac0.png)
 
-Utilizando:
+
+## Utilizando:
   - HTML
   - CSS / Bootstrap
   - Javascript / AJAX / Nodejs
   - SQLite (sqlite3)
 
-Para fazer:
+## Para fazer:
   - Página de perfil.
   - Sistema para seguir / adicionar usuários.
   - Página para visualização de seguidores / amigos.
   - Sistema para criar, editar e deletar postagens dentro das categorias.
+
+Hospedado no glitch: https://devsda.glitch.me/
