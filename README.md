@@ -7,10 +7,10 @@ Status: Incompleto.
 Hospedado no glitch: https://devsda.glitch.me/
 
 Utilizando:
-  - Javascript / AJAX
-  - Nodejs / (express, express-session)
+  - HTML
+  - CSS / Bootstrap
+  - Javascript / AJAX / Nodejs (express, express-session)
   - SQLite (sqlite3)
-  - Bootstrap
 
 Para fazer:
   - Página de perfil.
