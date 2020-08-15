@@ -1,0 +1,78 @@
+body{
+  background: #353535;
+  /*  background: url('http://trungk18.github.io/img/trungk18.png') no-repeat, linear-gradient(135deg, #6ec575 0, #3b8686 100%);*/
+}
+
+.logoImg{
+  width: 43px;
+}
+
+.col .titulo{
+  font-size: x-large;
+}
+
+footer hr{
+  width: 60px;
+  background: #866ac3;
+}
+
+#page-style{
+  /*background: #353535;*/
+  background-image: url(../imgs/city.png);
+  background-attachment: fixed;
+  background-size: 121%;
+  background-repeat: repeat-x;
+  background-position: 0 10pc;
+}
+
+.fUbuntuWhite{
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+.fRobotoDark{
+  color: #cacaca;
+  font-family: 'Roboto', sans-serif;
+}
+.fUbuntuLight{
+  color: #cacaca;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+a{
+  color: #6e9ccc;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.login-form{
+  padding: 7px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bg-c-dark1{
+  background: #222324;
+}
+.border-c-dark1{
+  border-color: #1e1e1e !important;
+}
+
+footer h1{
+  color: white;
+  border-color: blue;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+}
+
+.forum-room-column{
+  padding: 0;
+  background: #ffffff0a;
+  border-radius: 5px;
+}
+
+.forum-title-column{
+  margin: 8px 10px;
+  padding: 12px 13px;
+  background: linear-gradient(#929292, #464646);
+  border-radius: 5px;
+}

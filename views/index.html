@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Devs do amanhã - Bem vindo</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+</head>
+
+<body id="page-style">
+    <header class="navbar navbar-expand-lg navbar-dark bg-c-dark1">
+        <a class="navbar-brand" href="#">
+            <img width="30" height="30" src="./imgs/logo.png" class="d-inline-block align-top" alt="" title="Logo devs do amanha" />
+            Devs do amanhã
+        </a>
+    </header>
+    <br />
+    <div class="container">
+        <div style="padding: 10px; border-radius: 5px;" class="row border border-c-dark1">
+            <div class="col col-lg">
+                <div class="row">
+                    <div style="padding: 27px;" class="col">
+                        <h1 class="titulo fUbuntuWhite">Sobre o site:</h1>
+                        <p class="fRobotoDark">
+                            Este é um site exclusivo para você, aluno, desenvolvedor e o que mais você quiser ser.
+                            Divirta-se e explore as diversas possibilidades no Devs do amanhã.
+                            <br> Se você ainda não possui uma conta, clique <a title="Ir ao registro" href="/register">aqui.</a>
+                        </p>
+                    </div>
+                    <div class="col col-lg">
+                        <form id="loginform">
+                            <div class="form-group login-form">
+                                <h2 class="titulo fUbuntuWhite">Login</h2>
+                                <hr class="accent-2 mb-4 mt-0 d-inline-block mx-auto">
+                                <br>
+                                <label for="email">Email: </label>
+                                <input class="form-control" type="email" id="email" name="email" placeholder="Email">
+                                <label for="pass">Senha: </label>
+                                <input class="form-control" type="password" id="pass" name="pass" placeholder="Senha">
+                                <br>
+                                <div id="msgs" style="display: none; font-size: 13px; padding: 7px;"
+                                    class="alert alert-danger"></div>
+                                <div class="g-recaptcha" data-sitekey="6LfhRr8ZAAAAADMKaNrTxEMgbqcZ_8D5JNicbpbP"></div>
+                                <br>
+                                <button class="btn btn-light regbuttons">Entrar</button> ou <a href=""> esqueci a
+                                    senha.</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+    </div>
+    <footer class="page-footer font-small unique-color-dark">
+        <div class="bg-c-dark1">
+            <div class="container">
+                <div class="row py-4 d-flex align-items-center">
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <h1 class="text-uppercase font-weight-bold">Quem somos nós?</h1>
+                        <hr class="accent-2 mb-4 mt-0 d-inline-block mx-auto">
+                        <div class="fUbuntuLight">
+                          <ul style="list-style-type: none; padding: 0;">
+                              <li style="padding: 3px;">Filipe Araújo - Front-End</li>
+                              <li style="padding: 3px;">Vitor - Front-End</li>
+                              <li style="padding: 3px;">Lucas Araújo - Back-End</li>
+                              <li style="padding: 3px;">Jorgin - Designer</li>
+                          </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <h1 class="text-uppercase font-weight-bold">Outras formas de contato</h1>
+                        <hr class="accent-2 mb-4 mt-0 d-inline-block mx-auto">
+                        <div class="fUbuntuLight">
+                          Empresarial:
+                          <ul>
+                            <li>portfolio.estagio@hotmail.com</li>
+                          </ul>
+                          Pessoal:
+                          <ul>
+                            <li>filiperosasteam@gmail.com</li>
+                            <li>l.araujjo@hotmail.com.br</li>
+                            <li>vitornunes918@gmail.com</li>
+                          </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <h1 class="text-uppercase font-weight-bold">Outros sites</h1>
+                        <hr class="accent-2 mb-4 mt-0 d-inline-block mx-auto">
+                        <p>
+                            <a title="Link para a RosaPerrone" href="http://rosaperrone.com.br/">Rosaperrone</a>
+                        </p>
+                        <p>
+                            <a title="Link para o Bootstrap" href="https://getbootstrap.com/">Bootstrap</a>
+                        </p>
+                        <p>
+                            <a title="Link para o JQuery" href="https://jquery.com/">JQuery</a>
+                        </p>
+                    </div>
+                </div>
+                <div style="color: white;border-top: 1px solid #f8f9fa26;" class="footer-copyright text-center py-3">©
+                    2020 Copyright:
+                    <a href="http://devsda.glitch.me/">devsda.glitch.me</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script src="./js/client.js" defer></script>
+</body>
+
+</html>

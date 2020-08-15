@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Devs do amanhã - Página Inicial</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <header class="navbar navbar-expand-lg navbar-dark bg-c-dark1">
+    <a href="#"><img style="width: 43px;" src="./imgs/logo.png"  alt="Logo do site" title="Logo do site"/></a>
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="/forum">Nome do usuário aqui</a>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <!--<li><a class="nav-link" href="#">Perfil</a></li>
+        <li><a class="nav-link" href="/forum">Página inicial</a></li>-->
+      <li>
+        <form style="margin:0;" method="POST" action="/forum">
+          <button class="nav-link" style="border-style:none; background:transparent;" title="Desconectar">
+            Sair
+          </button>
+        </form>
+      </li>
+    </ul>
+  </header>
+  <br />
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <ul class="list-group">
+          <li class="list-group-item justify-content-between align-items-center">
+            <h1 class="mb-1 titulo">News</h1>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum.
+            Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+            turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis,
+            felis ut adipiscing.
+          </li>
+        </ul>
+        <br />
+        <ul class="list-group">
+          <li class="list-group-item justify-content-between align-items-center">
+            <h2 class="mb-1 titulo">Desenvolvimento web</h2>
+
+            <ul class="list-group">
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Ideias de design
+                <span class="badge badge-primary badge-pill">0</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Dúvidas gerais
+                <span class="badge badge-primary badge-pill">0</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Artigos e tutoriais
+                <span class="badge badge-primary badge-pill">0</span>
+              </li>
+            </ul>
+          </li>
+          <li class="list-group-item justify-content-between align-items-center">
+            <h2 class="mb-1 titulo">Programação em Python</h2>
+
+            <ul class="list-group">
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Dúvidas gerais do desenvolvimento em Python
+                <span class="badge badge-primary badge-pill">0</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Artigos e tutoriais do desenvolvimento em Python
+                <span class="badge badge-primary badge-pill">0</span>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <br />
+      </div>
+      <div class="col col-md-4">
+        <ul class="list-group">
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <h2 class="mb-1 titulo">Tópicos do momento</h2>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Nome de um tópico aqui...
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--<div class="container">
+      <div class="row" style="padding: 5px;">
+        <div class="col forum-room-column">
+          <header class="forum-title-column">
+            <h5>Web Design Help</h5>
+          </header>
+          <div
+            style="border-bottom: 1px solid #00000033; color: white;padding: 15px;"
+          >
+            <a href="#">Website Ratings</a>
+          </div>
+          <div
+            style="border-bottom: 1px solid #00000033; color: white;padding: 15px;"
+          >
+            <a href="#">General WebDesign</a>
+          </div>
+          <div
+            style="border-bottom: 1px solid #00000033; color: white;padding: 15px;"
+          >
+            <a href="#">Articles & Tutorials</a>
+          </div>
+        </div>
+        <div class="col-md-4"><p>Col2</p></div>
+      </div>
+      <div class="row" style="padding: 5px;">
+        <div class="col forum-room-column">
+          <header class="forum-title-column">
+            <h5>Design Software Help</h5>
+          </header>
+          <div
+            style="border-bottom: 1px solid #00000033; color: white;padding: 15px;"
+          >
+            <a href="#">Adobe Photoshop Help</a>
+          </div>
+          <div
+            style="border-bottom: 1px solid #00000033; color: white;padding: 15px;"
+          >
+            <a href="#">Sublime Text Help</a>
+          </div>
+          <div
+            style="border-bottom: 1px solid #00000033; color: white;padding: 15px;"
+          >
+            <a href="#">Google Chrome Help</a>
+          </div>
+        </div>
+        <div class="col-md-4"><p>Col2</p></div>
+      </div>
+    </div>-->
+  <br />
+  <footer class="page-footer font-small unique-color-dark">
+    <div class="bg-c-dark1">
+      <div class="container">
+        <div class="row py-4 d-flex align-items-center">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h1 class="text-uppercase font-weight-bold">Quem somos nós?</h1>
+              <hr class="accent-2 mb-4 mt-0 d-inline-block mx-auto">
+              <div class="fUbuntuLight">
+                <ul style="list-style-type: none; padding: 0;">
+                    <li style="padding: 3px;">Filipe Araújo - Front-End</li>
+                    <li style="padding: 3px;">Vitor - Front-End</li>
+                    <li style="padding: 3px;">Lucas Araújo - Back-End</li>
+                    <li style="padding: 3px;">Jorgin - Designer</li>
+                </ul>
+              </div>
+          </div>
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h1 class="text-uppercase font-weight-bold">Outras formas de contato</h1>
+              <hr class="accent-2 mb-4 mt-0 d-inline-block mx-auto">
+              <div class="fUbuntuLight">
+                Empresarial:
+                <ul>
+                  <li>portfolio.estagio@hotmail.com</li>
+                </ul>
+                Pessoal:
+                <ul>
+                  <li>filiperosasteam@gmail.com</li>
+                  <li>l.araujjo@hotmail.com.br</li>
+                  <li>vitornunes918@gmail.com</li>
+                </ul>
+              </div>
+          </div>
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h1 class="text-uppercase font-weight-bold">Outros sites</h1>
+              <hr class="accent-2 mb-4 mt-0 d-inline-block mx-auto">
+              <p>
+                  <a title="Link para a RosaPerrone" href="http://rosaperrone.com.br/">Rosaperrone</a>
+              </p>
+              <p>
+                  <a title="Link para o Bootstrap" href="https://getbootstrap.com/">Bootstrap</a>
+              </p>
+              <p>
+                  <a title="Link para o JQuery" href="https://jquery.com/">JQuery</a>
+              </p>
+          </div>
+      </div>
+        <div style="color: white;border-top: 1px solid #f8f9fa26;" class="footer-copyright text-center py-3">© 2020
+          Copyright:
+          <a href="http://devsda.glitch.me/">devsda.glitch.me</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <script src="./js/client.js" defer></script>
+</body>
+
+</html>
