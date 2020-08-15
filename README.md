@@ -15,6 +15,6 @@ Utilizando:
 
 Para fazer:
   - Página de perfil.
-  - Sistema de criar tópicos dentro das categorias existentes.
-    (Postagem dentro do tópico dentro da categoria, com possibilidade para edição, resposta e etc.).
   - Sistema para seguir / adicionar usuários.
+  - Página para visualização de seguidores / amigos.
+  - Sistema para criar, editar e deletar postagens dentro das categorias.
