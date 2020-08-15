@@ -4,6 +4,8 @@ Desenvolvido por uma pequena equipe que buscou aprender melhor na prática tudo 
 
 Status: Incompleto.
 
+Hospedado no glitch: https://devsda.glitch.me/
+
 Utilizando:
   - Javascript / AJAX
   - Nodejs / express
