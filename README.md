@@ -1,6 +1,6 @@
 # Devs Do Amanhã
 Um Fórum simples com sistema de registro e login funcionando.
-Desenvolvido por uma pequena equipe de estudantes que buscou aprender melhor na prática tudo que escolhido para ser utilizado.
+Desenvolvido por uma pequena equipe de estudantes que buscou aprender melhor na prática tudo que foi escolhido para ser utilizado.
 (Nenhuma experiência no mercado de trabalho).
 
 Status: Incompleto.
