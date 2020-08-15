@@ -10,7 +10,7 @@ Hospedado no glitch: https://devsda.glitch.me/
 Utilizando:
   - HTML
   - CSS / Bootstrap
-  - Javascript / AJAX / Nodejs (express, express-session)
+  - Javascript / AJAX / Nodejs
   - SQLite (sqlite3)
 
 Para fazer:
