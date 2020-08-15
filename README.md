@@ -3,9 +3,10 @@ Um Fórum simples com sistema de registro e login funcionando.
 Desenvolvido por uma pequena equipe de estudantes que buscou aprender melhor na prática tudo que foi escolhido para ser utilizado.
 (Nenhuma experiência no mercado de trabalho).
 
-Status: Incompleto.
+### Status:
+Incompleto.
 
-### Imagens:
+## Imagens:
 Página de login
 ![ftex1](https://user-images.githubusercontent.com/60610559/90321943-b3685f80-df24-11ea-8251-4e256cfd489d.png)
 
