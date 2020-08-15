@@ -17,7 +17,7 @@ Página de cadastro
 ## Utilizando:
   - HTML
   - CSS / Bootstrap
-  - Javascript / AJAX / Nodejs
+  - Javascript / JQuery / AJAX / Nodejs
   - SQLite (sqlite3)
 
 ## Para fazer:
