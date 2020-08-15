@@ -8,8 +8,8 @@ Hospedado no glitch: https://devsda.glitch.me/
 
 Utilizando:
   - Javascript / AJAX
-  - Nodejs / express
-  - SQLite
+  - Nodejs / (express, express-session)
+  - SQLite (sqlite3)
   - Bootstrap
 
 Para fazer:
